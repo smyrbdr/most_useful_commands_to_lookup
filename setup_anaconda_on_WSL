@@ -1,0 +1,17 @@
+# be sure that you have the root previliges first
+
+$ wget https://repo.continuum.io/archive/Anaconda3-5.3.0-Linux-x86_64.sh # or check the latest version there
+
+# install
+$ bash Anaconda3-5.3.0-Linux-x86_64.sh
+# say 'yes' to the LAST question prompted while installation
+
+# check status
+$ which python
+# should return the directory where python is installed
+
+# open a jupyter notebook
+$ jupyter notebook --no-browser
+# copy and paste the address in your web browser and you are there running jupyter notebook on your WSL.
+
+
