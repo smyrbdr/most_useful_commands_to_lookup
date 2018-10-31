@@ -1,0 +1,7 @@
+$ sudo apt-get install make #a pre-req package
+
+$ sudo apt-get install vowpal-wabbit
+
+#that"s all. 
+#run your jupyter notebook and work with vw there on your WSL
+$ jupyter notebook --no-browser
