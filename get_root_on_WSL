@@ -9,3 +9,7 @@ C:\> ubuntu config --default-user root # for ubuntu
 C:\> kali config --default-user root # for kali
 
 Launch your Linux distribution. You will automatically login as root..
+
+To turn back to username:
+
+C:\> ubuntu config --default-user username
