@@ -1,0 +1,11 @@
+Open CMD on Windows
+
+Set the default Linux user to root:
+
+CMD
+
+C:\> ubuntu config --default-user root # for ubuntu
+
+C:\> kali config --default-user root # for kali
+
+Launch your Linux distribution. You will automatically login as root..
