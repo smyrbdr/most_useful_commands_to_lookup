@@ -4,11 +4,17 @@ $ wget https://repo.continuum.io/archive/Anaconda3-5.3.0-Linux-x86_64.sh # or ch
 
 # install
 $ bash Anaconda3-5.3.0-Linux-x86_64.sh
-# say 'yes' to the LAST question prompted while installation
+# say 'yes' to the LAST question prompted while installation and close Ubuntu
+
+# since you are root, go directly to your .bashrc file 
+# (C:\Users\username\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\root) 
+# and add this line to the end of the file
+export PATH=/root/anaconda3/bin:$PATH
 
 # check status
 $ which python
-# should return the directory where python is installed
+# should return the directory where python is installed: /root/anaconda3/bin/python
+
 
 # open a jupyter notebook
 $ jupyter notebook --no-browser
