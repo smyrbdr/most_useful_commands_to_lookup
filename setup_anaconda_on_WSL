@@ -17,7 +17,7 @@ $ which python
 
 
 # open a jupyter notebook
-$ jupyter notebook --no-browser
+$ jupyter notebook --no-browser # if you are still root add also: --allow-root
 # copy and paste the address in your web browser and you are there running jupyter notebook on your WSL.
 
 
