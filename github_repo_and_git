@@ -1,0 +1,11 @@
+$git clone https://github.com/smyrbdr/repo_name
+
+ile dosyamızın local kopyasını alıyoruz. 
+Dosyalarda her önemli değişiklik yaptığımızda aşağıdaki adımları izlememiz yeterli olacak.
+
+Örneğin bu klasöre localde yeni bir belge ekledin; (branch açmadan direkt master'a push edeceksen)
+
+$cd repo_name 
+$git add --all #ne var ne yok ekle
+$git commit -m "Added ne var ne yok :)" 
+$git push
