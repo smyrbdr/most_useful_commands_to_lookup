@@ -1,0 +1,10 @@
+while setting up
+check for all users (requires admin previlages) option
+or instead, whileo asking about the path in the next step check the one which says (Not recommended)
+
+
+run cmd
+ask
+> where python
+see the path has returned like
+C:\Users\<username>\AppData\Local\Microsoft\WindowsApps\python.exe
